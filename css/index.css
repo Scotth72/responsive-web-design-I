@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* .all{ */
 	/* width:880px; */
 	/* margin: 0 auto; */
-}
+
 header{
 	display:flex;
 	width:100%;	
@@ -236,7 +236,6 @@ button{
     header nav{
         margin: 4% 5%;
         /* min-width:100%; */
-
     }
     .logo{
         width: 25%;
@@ -251,6 +250,7 @@ button{
     }
     button{
         text-align: center;
+        margin: 5% 0 5% 0;
     }
 }
 @media (max-width: 500px){
@@ -265,6 +265,9 @@ button{
         align-self: center;
         border-bottom:1px solid gray;
     }
+    .sertop{
+        border-top: 1px solid gray;
+    }
     .demand .demand-text{
         min-width:100%;
         margin: 0 auto;
@@ -274,7 +277,7 @@ button{
     }
     button{
         text-align: center;
-        margin:0 auto;
+        margin:0 0 3% 0;
     }
     .topic1{
         display:flex;
